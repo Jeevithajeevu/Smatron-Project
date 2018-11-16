@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [SmartronWebsite-TestCases]">
+  <test name="HomePage(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestScripts.HomePage">
+        <methods>
+          <include name="test_Header_WSDK0016"/>
+          <include name="test_WatchDemoUndertronX_WSDK004"/>
+          <include name="tearDown"/>
+          <include name="test_Footer_WSDK036"/>
+          <include name="test_GettingAllSectionNames_WSDK001"/>
+          <include name="test_FlipKartSale_WSDK002"/>
+          <include name="test_Footer_WSDK026"/>
+          <include name="test_Footer_WSDK029"/>
+          <include name="test_Footer_WSDK024"/>
+          <include name="test_Footer_WSDK027"/>
+          <include name="test_SpellcheckinHomePage_WSDK047"/>
+          <include name="test_Footer_WSDK028"/>
+          <include name="test_GettingCSSOFHeadingAndParagraph_WSDK046"/>
+          <include name="test_Footer_WSDK021"/>
+          <include name="test_Footer_WSDK022"/>
+          <include name="test_Footer_WSDK020"/>
+          <include name="test_Footer_WSDK023"/>
+          <include name="test_Header_WSDK007"/>
+          <include name="test_Footer_WSDK025"/>
+          <include name="test_Footer_WSDK018"/>
+          <include name="test_Header_WSDK009"/>
+          <include name="test_Footer_WSDK019"/>
+          <include name="test_Footer_WSDK017"/>
+          <include name="test_Header_WSDK008"/>
+          <include name="test_Header_WSDK015"/>
+          <include name="test_Header_WSDK013"/>
+          <include name="test_Header_WSDK011"/>
+          <include name="test_Header_WSDK014"/>
+          <include name="test_LearnMoreUndertcare_WSDK005"/>
+          <include name="test_Header_WSDK010"/>
+          <include name="test_Footer_WSDK043"/>
+          <include name="test_Footer_WSDK040"/>
+          <include name="test_Header_WSDK012"/>
+          <include name="test_Footer_WSDK041"/>
+          <include name="test_Footer_WSDK042"/>
+          <include name="test_slickDotsinHomePage_WSDK006"/>
+          <include name="test_GettingBackgroundImageOfHomePage_WSDK045"/>
+          <include name="test_Footer_WSDK037"/>
+          <include name="test_Footer_WSDK038"/>
+          <include name="test_HeadPhone_Image_WSDK044"/>
+          <include name="test_Footer_WSDK035"/>
+          <include name="test_ytpvideo_WSDK003"/>
+          <include name="test_Footer_WSDK039"/>
+          <include name="test_Footer_WSDK032"/>
+          <include name="setUp"/>
+          <include name="test_Footer_WSDK030"/>
+          <include name="test_Footer_WSDK033"/>
+          <include name="test_Footer_WSDK034"/>
+          <include name="test_Footer_WSDK031"/>
+        </methods>
+      </class> <!-- TestScripts.HomePage -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [SmartronWebsite-TestCases] -->

@@ -1,0 +1,99 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmartronWebsite-TestCases" parallel="none" >
+<parameter name="browserType" value="Chrome"/>
+
+	<test name="HomePage">
+   
+    <classes>
+      <class name="com.smartron.website.HomePageTest"/>
+      </classes>
+      </test>
+      
+    
+      <test name="TphoneP">
+     
+      <classes>
+      <class name="com.smartron.website.tphonePTest"/>
+    </classes>
+  </test> 
+  
+  <test name="srtPhone">
+ 
+      <classes>
+      <class name="com.smartron.website.srtphone"/>
+    </classes>
+  </test> 
+  
+  <test name="Tphone">
+  
+      <classes>
+      <class name="com.smartron.website.tphone"/>
+    </classes>
+  </test> 
+  
+  <test name="Tbook">
+ 
+      <classes>
+      <class name="com.smartron.website.tbook"/>
+    </classes>
+  </test> 
+  
+  <test name="tbookFlex">
+ 
+      <classes>
+      <class name="com.smartron.website.tbookFlex"/>
+    </classes>
+  </test> 
+  
+  <test name="tband">
+ 
+      <classes>
+      <class name="com.smartron.website.tband"/>
+    </classes>
+  </test> 
+  
+  <test name="Tthings">
+ 
+      <classes>
+      <class name="com.smartron.website.things"/>
+    </classes>
+  </test> 
+  
+  <test name="TronX">
+ 
+      <classes>
+      <class name="com.smartron.website.tronXPage"/>
+    </classes>
+  </test> 
+  
+   <test name="IoT">
+ 
+      <classes>
+      <class name="com.smartron.website.IotPage"/>
+    </classes>
+  </test> 
+  
+  
+
+<test name="tcare">
+
+      <classes>
+      <class name="com.smartron.website.tcarePage"/>
+    </classes>
+  </test> 
+  
+  <test name="Company">
+  
+      <classes>
+      <class name="com.smartron.website.companyPage"/>
+    </classes>
+  </test> 
+  
+  <test name="studentOffer">
+ 
+      <classes>
+      <class name="com.smartron.website.StudentOffer"/>
+    </classes>
+  </test> 
+</suite>
